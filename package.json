@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && jest --verbose",
+    "build": "rm -rf ./dist && tsc",
+    "postinstall": "npm run build:prod"
   },
   "repository": {
     "type": "git",
@@ -19,9 +21,16 @@
   "homepage": "https://github.com/Bit-Nation/BITNATION-Panthalassa-TS-node-js-secure-storage#readme",
   "dependencies": {
     "@types/crypto-js": "^3.1.36",
+    "@types/fs-extra": "^4.0.2",
+    "@types/jest": "^21.1.2",
     "@types/node": "^8.0.33",
     "BITNATION-Panthalassa-TS-secure-storage-interface": "git+https://github.com/Bit-Nation/BITNATION-Panthalassa-TS-secure-storage-interface.git#da406b43d090346387f313e5cfe7e6c1b1f2ea33",
     "crypto-js": "^3.1.9-1",
+    "ts-jest": "^21.1.0",
     "typescript": "^2.5.3"
+  },
+  "devDependencies": {
+    "fs-extra": "^4.0.2",
+    "jest": "^21.2.1"
   }
 }
