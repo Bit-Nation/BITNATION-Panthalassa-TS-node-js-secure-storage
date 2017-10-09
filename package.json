@@ -1,0 +1,20 @@
+{
+  "name": "BITNATION-Panthalassa-TS-node-js-secure-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bit-Nation/BITNATION-Panthalassa-TS-node-js-secure-storage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bit-Nation/BITNATION-Panthalassa-TS-node-js-secure-storage/issues"
+  },
+  "homepage": "https://github.com/Bit-Nation/BITNATION-Panthalassa-TS-node-js-secure-storage#readme"
+}
