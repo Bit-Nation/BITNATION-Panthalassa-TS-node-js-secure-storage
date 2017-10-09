@@ -24,7 +24,7 @@ export class NodeJsSecureStorage implements SecureStorageInterface {
      */
     init() {
         if (existsSync(this.fileName)) {
-            let fileContent = readFileSync(this.fileName, "utf8").toString('utf8');
+            let fileContent:string = readFileSync(this.fileName, "utf8").toString();
             fileContent = AES.decrypt(fileContent,this.password).toString(enc.Utf8);
             this.keyValueStore = JSON.parse(fileContent);
         } else {

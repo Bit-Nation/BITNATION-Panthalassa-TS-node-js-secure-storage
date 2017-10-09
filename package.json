@@ -24,7 +24,7 @@
     "@types/fs-extra": "^4.0.2",
     "@types/jest": "^21.1.2",
     "@types/node": "^8.0.33",
-    "BITNATION-Panthalassa-TS-secure-storage-interface": "git+https://github.com/Bit-Nation/BITNATION-Panthalassa-TS-secure-storage-interface.git#da406b43d090346387f313e5cfe7e6c1b1f2ea33",
+    "BITNATION-Panthalassa-TS-secure-storage-interface": "git+https://github.com/Bit-Nation/BITNATION-Panthalassa-TS-secure-storage-interface.git#f01f532b4e7794ed1f6b708ec9425c3976097f62",
     "crypto-js": "^3.1.9-1",
     "ts-jest": "^21.1.0",
     "typescript": "^2.5.3"
