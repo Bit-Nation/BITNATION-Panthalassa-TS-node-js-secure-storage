@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Bit-Nation/BITNATION-Panthalassa-TS-node-js-secure-storage/issues"
   },
-  "homepage": "https://github.com/Bit-Nation/BITNATION-Panthalassa-TS-node-js-secure-storage#readme"
+  "homepage": "https://github.com/Bit-Nation/BITNATION-Panthalassa-TS-node-js-secure-storage#readme",
+  "dependencies": {
+    "BITNATION-Panthalassa-TS-secure-storage-interface": "git+https://github.com/Bit-Nation/BITNATION-Panthalassa-TS-secure-storage-interface.git#da406b43d090346387f313e5cfe7e6c1b1f2ea33"
+  }
 }
