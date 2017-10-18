@@ -2,7 +2,7 @@
   "name": "BITNATION-Panthalassa-TS-node-js-secure-storage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./NodeJsSecureStorage.js",
   "scripts": {
     "test": "npm run build && jest --verbose",
     "build": "rm -rf ./dist && tsc",
